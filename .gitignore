@@ -1,0 +1,15 @@
+# SECURITY - Environment files
+.env
+.env.*
+!.env.example
+
+# SECURITY - API keys and secrets
+*_key
+*_token
+*_secret
+*_password
+
+# SECURITY - Configuration with secrets
+config/*.json
+config/*.js
+!config/*.example.*
